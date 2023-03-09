@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 function Contact() {
   return (
@@ -11,6 +12,7 @@ function Contact() {
         <li>Connect with me on LinkedIn</li>
         <li>Find my github repos here.</li>
       </ul>
+      <Footer />
     </div>
   );
 }
