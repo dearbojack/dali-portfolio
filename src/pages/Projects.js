@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import Footer from './Footer';
 
 function Project(props) {
   return (
@@ -33,6 +34,7 @@ function Projects() {
         description="This is a description of my project 3"
         link="https://github.com/example/project3"
       />
+      <Footer />
     </div>
   );
 }
